@@ -23,3 +23,15 @@
 <h3>Here is some screen shots attached below</h3>
 <h6>Create New User</h6>
 <img src="ScreenShots/addnewuser.png" />
+
+<h6>List Of All User</h6>
+<img src="ScreenShots/userlist.png" />
+
+<h6>Single View of User</h6>
+<img src="ScreenShots/usersingleview.png" />
+
+<h6>Update Existing User</h6>
+<img src="ScreenShots/updateuser.png" />
+
+<h6>Delete User</h6>
+<img src="ScreenShots/delete user.png" />
