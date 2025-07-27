@@ -19,3 +19,7 @@
 <p><b>Step-5 :</b> Import the collection json from postman collection folder in the cloned repository</p>
 
 <p><b>Step-6 :</b> Hit the request located left side bar and send the endpoint. You will see the data in lower portion.</p>
+
+<h3>Here is some screen shots attached below</h3>
+<h6>Create New User</h6>
+<img src="ScreenShots/addnewuser.png" />
