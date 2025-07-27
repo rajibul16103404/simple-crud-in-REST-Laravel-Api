@@ -28,7 +28,7 @@
 <img src="ScreenShots/userlist.png" />
 
 <h6>Single View of User</h6>
-<img src="ScreenShots/usersinglerview.png" />
+<img src="ScreenShots/usersinglrview.png" />
 
 <h6>Update Existing User</h6>
 <img src="ScreenShots/updateuser.png" />
