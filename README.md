@@ -3,7 +3,7 @@
 <p align="center">Laravel Framework, Mysql, Postman</p>
 
 <h3>Project Setup Guideline</h3>
-<p><b>Step-1 :</b> At first you should clone the repository. Create a new directory, open comand prompt there and paste <b>git clone https://github.com/rajibul16103404/simple-crud-in-REST-Laravel-Api.git</b> the command.</p>
+<p><b>Step-1 :</b> At first you should clone the repository. Create a new directory, open comand prompt there and paste the command: <b>git clone https://github.com/rajibul16103404/simple-crud-in-REST-Laravel-Api.git</b></p>
 
 <p><b>Step-2 :</b> You must need mysql database. For local you can install <a href="https://www.apachefriends.org/download.html">xampp</a> or <a href="https://www.wampserver.com/en/download-wampserver-64bits/">wampp</a></p>
 
