@@ -3,7 +3,19 @@
 <p align="center">Laravel Framework, Mysql, Postman</p>
 
 <h3>Project Setup Guideline</h3>
-<p>At first you should clone the repository. <b>git clone https://github.com/rajibul16103404/simple-crud-in-REST-Laravel-Api.git</b></p>
+<p><b>Step-1 :</b> At first you should clone the repository. <b>git clone https://github.com/rajibul16103404/simple-crud-in-REST-Laravel-Api.git</b></p>
 
-<p>You must need mysql database. For local you can install <a href="https://www.apachefriends.org/download.html">xampp</a> or <a href="https://www.wampserver.com/en/download-wampserver-64bits/">wampp</a></p>
+<p><b>Step-2 :</b> You must need mysql database. For local you can install <a href="https://www.apachefriends.org/download.html">xampp</a> or <a href="https://www.wampserver.com/en/download-wampserver-64bits/">wampp</a></p>
 
+<p><b>Step-3 :</b> Open the terminal in the directory where you cloned the repository and run the following commands:</p>
+
+<h4><b>php artisan migrate</b></h4> <p>(If it says database not found create one then type yes and press enter.)</p>
+<h4><b>php artisan db:seed</b></h4>
+<h4><b>php artisan serve</b></h4>
+
+
+<p><b>Step-4 :</b> Open Postman in your web browser or app (in case of postman web you need to download <a href="https://www.postman.com/downloads/postman-agent/">postman desktop agent</a></p>
+
+<p><b>Step-5 :</b> Import the collection json from postman collection folder in the cloned repository</p>
+
+<p><b>Step-6 :</b> Hit the request located left side bar and send the endpoint. You will see the data in lower portion.</p>
