@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "0b2fd3de-620d-4487-a45d-839542aef3f5",
+		"name": "CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32559855",
+		"_collection_link": "https://www.postman.com/lolipop62/ray-advertising-assignment/collection/enu7gcf/crud?action=share&source=collection_link&creator=32559855"
+	},
+	"item": [
+		{
+			"name": "User List",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/list",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Single View",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/list",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Alice Johnson\",\r\n    \"email\": \"alice.johnson@example.com\",\r\n    \"password\": \"password\"\r\n}\r\n  ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/user",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"name\": \"Alice Johnson\",\r\n    \"email\": \"alice.johnson@example.com\",\r\n    \"password\": \"password\"\r\n  },\r\n  {\r\n    \"name\": \"Bob Smith\",\r\n    \"email\": \"bob.smith@example.com\",\r\n    \"password\": \"password\"\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/user",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Soft Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/user/2",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"user",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
