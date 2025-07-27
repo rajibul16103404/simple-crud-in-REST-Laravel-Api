@@ -9,7 +9,7 @@
 
 <p><b>Step-3 :</b> Open the terminal in the directory where you cloned the repository and run the following commands:</p>
 
-<h4><b>php artisan migrate</b></h4> <p>(If it says database not found create one then type yes and press enter.)</p>
+<h4><b>php artisan migrate</b></h4> <p>(If it says database not found create one then type <b>yes</b> and press enter.)</p>
 <h4><b>php artisan db:seed</b></h4>
 <h4><b>php artisan serve</b></h4>
 
